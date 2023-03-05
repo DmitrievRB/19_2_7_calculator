@@ -1,4 +1,8 @@
+import math
+
+
 class Calculator:
+
     def multiply(self, x, y):
         return x * y
 
@@ -10,3 +14,12 @@ class Calculator:
 
     def adding(self, x, y):
         return x + y
+
+    def square_number(self, x):
+        return x ** x
+
+    def root_number(self, x):
+        return math.sqrt(x)
+
+    def logarithm(self, x):
+        return math.log2(x)

@@ -17,3 +17,12 @@ class TestCalc:
 
     def test_calc_add(self):
         assert self.calculator.adding(self, 2, 2) == 4
+
+    def test_square_number(self):
+        assert self.calculator.square_number(self, 5) == 25
+
+    def test_root_number(self):
+        assert self.test_root_number(self, 25) == 5
+
+    def test_logarithm(self):
+        assert self.calculator.logarithm(self, 2) == 1
