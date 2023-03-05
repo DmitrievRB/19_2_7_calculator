@@ -1,12 +1,12 @@
 class Calculator:
-    def multiply(self):
+    def multiply(self, x, y):
         return x * y
-    
-    def division(self):
+
+    def division(self, x, y):
         return x / y
-    
-    def subtration(self):
-        return x-y
-    
-    def add(self):
+
+    def subtraction(self, x, y):
+        return x - y
+
+    def adding(self, x, y):
         return x + y
